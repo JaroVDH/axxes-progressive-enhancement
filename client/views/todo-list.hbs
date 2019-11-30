@@ -1,0 +1,13 @@
+<form action="/save" method="post">
+	<div class="todo-list">
+		<input type="text" class="todo-list__title" value="{{todoList.title}}" name="title" />
+		<ul class="todolist__todos">
+			{{#each todoList.todos}}
+				{{> todo}}
+			{{/each}}
+		</ul>
+		<div class="todo-list__actions">
+			<button class="button" type="submit">Save</button>
+		</div>
+	</div>
+</form>

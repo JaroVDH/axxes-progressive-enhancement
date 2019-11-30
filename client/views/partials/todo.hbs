@@ -1,0 +1,10 @@
+<li class="todo">
+	<input type="checkbox" class="todo__is-done-state" {{#if isDone}}checked="checked"{{/if}} name="todos[{{@index}}][isDone]" id="todoState-{{@index}}-isDone"/>
+	<input type="hidden" value="{{text}}" name="todos[{{@index}}][text]" />
+	<div class="todo__content">
+		<label class="todo__label" for="todoState-{{@index}}-isDone">
+			{{text}}
+		</label>
+		<button class="button button--small" type="button">Edit</button>
+	</div>
+</li>

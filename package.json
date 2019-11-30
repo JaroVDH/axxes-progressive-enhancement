@@ -1,0 +1,45 @@
+{
+  "name": "axxes-progressive-enhancement",
+  "version": "1.0.0",
+  "description": "Course material for Progressive Enhancement CC",
+  "main": "server/index.js",
+  "private": true,
+  "scripts": {
+    "start": "babel-node server/index.js",
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaroVDH/axxes-progressive-enhancement.git"
+  },
+  "keywords": [
+    "axxes",
+    "progressive",
+    "enhancement",
+    "cc"
+  ],
+  "author": "Jaro Vanderheijden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaroVDH/axxes-progressive-enhancement/issues"
+  },
+  "homepage": "https://github.com/JaroVDH/axxes-progressive-enhancement#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

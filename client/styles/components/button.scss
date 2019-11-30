@@ -1,0 +1,22 @@
+.button {
+	background-color: $white;
+	padding: $base-spacing $base-spacing * 2;
+	font-size: 0.875rem;
+	min-width: 64px;
+	transition: background-color ease 250ms;
+	font-weight: 500;
+	line-height: 1.75;
+	border-radius: 4px;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: darken($white, 10%);
+	}
+
+	&--small {
+		padding: $base-spacing / 2 $base-spacing;
+		font-size: 0.5rem;
+		min-width: 0;
+		line-height: 1.2;
+	}
+}

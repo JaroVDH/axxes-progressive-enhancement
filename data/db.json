@@ -1,0 +1,21 @@
+{
+  "title": "My Todo List",
+  "todos": [
+    {
+      "text": "Mark this Todo as done",
+      "isDone": true
+    },
+    {
+      "text": "Make Todo text editable by clicking edit"
+    },
+    {
+      "text": "Make Todo deletable"
+    },
+    {
+      "text": "Make Todo delete undoable"
+    },
+    {
+      "text": "Make Todo's autosave"
+    }
+  ]
+}

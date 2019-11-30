@@ -1,0 +1,33 @@
+.todo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	width: 100%;
+	margin: $base-spacing / 2 0;
+
+	text-align: left;
+	text-decoration: none;
+}
+
+.todo__content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	padding: 0 $base-spacing;
+
+	.todo__is-done-state:checked ~ & {
+		background-color: $light-green;
+	}
+}
+
+.todo__is-done-state {
+	display: none;
+}
+
+.todo__label {
+	flex: 1;
+	padding: $base-spacing $base-spacing * 2 $base-spacing $base-spacing;
+	cursor: pointer;
+}

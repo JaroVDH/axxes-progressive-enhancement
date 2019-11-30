@@ -1,0 +1,25 @@
+.todo-list {
+	background-color: $white;
+}
+
+.todo-list__title {
+	width: 100%;
+	padding: $base-spacing;
+	border: 0;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.todo-list__todos {
+	width: 100%;
+	padding-top: $base-spacing;
+	padding-bottom: $base-spacing;
+	list-style: none;
+}
+
+.todo-list__actions {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: $base-spacing;
+}
